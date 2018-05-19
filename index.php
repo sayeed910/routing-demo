@@ -39,7 +39,7 @@ $routes = [
 ];
 
 $request = $_SERVER['REQUEST_URI'];
-
+echo "This is index.php";
 $matched = false;
 foreach($routes as $key => $value){
     $matches = [];

@@ -7,7 +7,7 @@
     <title>Customer Details</title>
 </head>
 <body>
-
+<?= "This is customer.php" ?>
     <span>ID: </span><span><?= $customer->id ?></span><br>
     <span>Name: </span><span><?= $customer->name ?></span><br>
     <span>Email: </span><span><?= $customer->email ?></span><br>
